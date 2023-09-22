@@ -3,15 +3,6 @@
 #The most efficient way to find the number is to guess halfway between the low and high numbers of the range. If our guess is too big, then the answer lies between the bottom of the range and one less than our guess. If our guess is too small, then the answer lies between one more than our guess and the end of the range.
 #
 #Your API will be guess(actual, range), where range is an Elixir range.
-defmodule Benchmark do
-  def measure(function) do
-    function
-    |> :timer.tc
-    |> elem(0)
-    |> Kernel./(1_000_000)
-  end
-end
-
 defmodule Chop do
   def guess(actual, low..high) when is_integer(actual) and is_integer(low) and is_integer(high) do
     guess = div(low+high, 2)

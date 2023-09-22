@@ -1,4 +1,21 @@
-# Code sandbox for reading: Programming Elixir ≥ 1.6 by Dave Thomas
+# PrgElixir
 
-## About
-Code here are the outcome of my readings of Programming Elixir ≥ 1.6, all this is mearly exercises from the book and code snippets that comes to mind while reading the book.
+**TODO: Add description**
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `prg_elixir` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:prg_elixir, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at <https://hexdocs.pm/prg_elixir>.
+
